@@ -1,5 +1,5 @@
 ﻿Imports Entidades
-Imports Mascotas
+
 Module Lorotests
 
     Sub Main()

@@ -7,7 +7,7 @@
 
     Public Sub New()
         Nombre = ""
-        FechaNacimiento = "2000/01/01 00:00:00"
+        FechaNacimiento = Now()
     End Sub
 
     Public ReadOnly Property Edad As Short
