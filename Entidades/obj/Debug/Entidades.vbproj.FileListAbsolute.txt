@@ -8,3 +8,13 @@ C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Mascotas\Entidades\obj\
 C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Mascotas\Entidades\obj\Debug\Entidades.dll
 C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Mascotas\Entidades\obj\Debug\Entidades.xml
 C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Mascotas\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.dll
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.xml
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\bin\Debug\Entidades.dll
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\Entidades\bin\Debug\Entidades.xml

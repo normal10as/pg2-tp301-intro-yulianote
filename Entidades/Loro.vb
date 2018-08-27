@@ -1,21 +1,14 @@
 ﻿Public Class Loro
-
-    Private _edad As Short
     Private _fechaNacimiento As Date
     Private _nombre As String
-    Private _memoria As Queue
+    Private _memoria As Queue(Of String)
+    Private texto As String
 
     Public Sub New()
-        Nombre = ""
-        FechaNacimiento = Now()
+        Me.Nombre = ""
+        Me.FechaNacimiento = Now()
+        _memoria = New Queue(Of String)
     End Sub
-
-    Public ReadOnly Property Edad As Short
-        Get
-            Return _edad
-        End Get
-
-    End Property
 
     Public Property FechaNacimiento As Date
         Get
@@ -35,7 +28,37 @@
         End Set
     End Property
 
+    Public ReadOnly Property Edad As Short
+        Get
+            Return CalcularEdad(FechaNacimiento)
+        End Get
+
+    End Property
+
+    Private Function CalcularEdad(fechaNacimiento As Date) As UShort
+        Dim hoy As Date = Now
+        Dim anios As UShort
+        anios = hoy.Year() - fechaNacimiento.Year()
+        If fechaNacimiento.Month() >= hoy.Month() Then
+            If fechaNacimiento.Day() >= hoy.Day() Then
+                anios = anios + 1
+            End If
+        End If
+        Return anios
+        ''Return DateDiff(DateInterval.Year, fechaNacimiento, Now)
 
 
+    End Function
+
+    Public Sub Escuchar(Frase As String)
+        _memoria.Enqueue(Frase)
+    End Sub
+
+    Public Function Hablar() As String
+        If _memoria.Count > 0 Then
+            texto = texto & _memoria.Dequeue & " "
+        End If
+        Return texto
+    End Function
 
 End Class
