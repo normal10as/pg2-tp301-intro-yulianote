@@ -1,0 +1,15 @@
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\tests.exe.config
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\tests.exe
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\tests.pdb
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\tests.xml
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\Entidades.dll
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\Entidades.pdb
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\bin\Debug\Entidades.xml
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\EntidadesTests.vbprojAssemblyReference.cache
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\tests.Resources.resources
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\EntidadesTests.vbproj.GenerateResource.cache
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\EntidadesTests.vbproj.CoreCompileInputs.cache
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\EntidadesTests.vbproj.CopyComplete
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\tests.exe
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\tests.xml
+C:\Users\Eu\source\repos\repos\pg2-tp301-intro-yulianote\tests\obj\Debug\tests.pdb

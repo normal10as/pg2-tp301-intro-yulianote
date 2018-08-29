@@ -1,7 +1,7 @@
 ﻿Public Class Loro
     Private _fechaNacimiento As Date
     Private _nombre As String
-    Private _memoria As Queue(Of String)
+    Protected _memoria As Queue(Of String)
     Private texto As String
 
     Public Sub New()
@@ -32,7 +32,6 @@
         Get
             Return CalcularEdad(FechaNacimiento)
         End Get
-
     End Property
 
     Private Function CalcularEdad(fechaNacimiento As Date) As UShort
@@ -46,8 +45,6 @@
         End If
         Return anios
         ''Return DateDiff(DateInterval.Year, fechaNacimiento, Now)
-
-
     End Function
 
     Public Sub Escuchar(Frase As String)
@@ -61,4 +58,7 @@
         Return texto
     End Function
 
+    Public Overrides Function ToString() As String
+        Return Nombre
+    End Function
 End Class
