@@ -7,15 +7,14 @@
 
     Public ReadOnly Property EdadHumana As Short
         Get
-            Console.WriteLine(Edad)
             Return Edad * 2
         End Get
     End Property
 
     Public Overloads Sub Escuchar(palabra As String)
-        Dim recordar As Boolean = False
-        _memoria.Enqueue(palabra)
-        If recordar Then
+        Dim recordar As Boolean = recordar
+        If recordar = True Then
+            _memoria.Enqueue(palabra)
             _memoria.Dequeue()
             recordar = False
         Else

@@ -49,6 +49,7 @@
 
     Public Sub Escuchar(Frase As String)
         _memoria.Enqueue(Frase)
+        Console.WriteLine(_memoria.Count)
     End Sub
 
     Public Function Hablar() As String
