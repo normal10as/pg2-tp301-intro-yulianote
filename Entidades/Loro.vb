@@ -44,6 +44,7 @@
             End If
         End If
         Return anios
+
         ''Return DateDiff(DateInterval.Year, fechaNacimiento, Now)
     End Function
 
