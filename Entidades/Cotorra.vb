@@ -1,8 +1,10 @@
 ﻿Public Class Cotorra
     Inherits Loro
+    Private recordar As Boolean = True
 
     Sub New()
         MyBase.New()
+        recordar = True
     End Sub
 
     Public ReadOnly Property EdadHumana As Short
@@ -11,17 +13,13 @@
         End Get
     End Property
 
-    Public Overloads Sub Escuchar(palabra As String)
-        _memoria.Enqueue(palabra)
-        'Dim recordar As Boolean = recordar
-        'If recordar = True Then
-        '    _memoria.Enqueue(palabra)
-        '    _memoria.Dequeue()
-        '    recordar = False
-        'Else
-        '    _memoria.Enqueue(palabra)
-        '    recordar = True
-        'End If
+    Public Overrides Sub Escuchar(palabra As String)
+        If recordar = True Then
+            _memoria.Enqueue(palabra)
+            recordar = False
+        Else
+            recordar = True
+        End If
     End Sub
 
 End Class

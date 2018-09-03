@@ -47,7 +47,7 @@
         ''Return DateDiff(DateInterval.Year, fechaNacimiento, Now)
     End Function
 
-    Public Sub Escuchar(Frase As String)
+    Public Overridable Sub Escuchar(Frase As String)
         _memoria.Enqueue(Frase)
     End Sub
 
